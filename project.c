@@ -140,7 +140,7 @@ void list(db* stud_list) {
 /**
  * \brief writes student info to the given txt file
  *        NOTE: Does not order them according to any particular metric. Simply writes them to the file
- *              in whatever order they were added to the database (Hence the output discrepency on the A+ evaluator)
+ *              in whatever order they were added to the database.
  * 
  * \param stud_list database containing all students and their info to be printed to the file
  * \param filename name of the file the student info should be written to
