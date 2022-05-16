@@ -102,8 +102,7 @@ void list(db* stud_list) {
     int ordtemp;
     /* 
     *  A simple bubblesort algorhithm. for a project of this size the bubblesort works fine.
-    *  If the database was to includes hundreds of students, a quicksort algorhithm might be more suitable,
-    *  but for the purposes of this assignment, that would overkill, and may even be slower on arrays this size.
+    *  If the database was to includes hundreds of students, a quicksort algorhithm might be more suitable.
     */ 
     for (unsigned int i = 0; i < stud_list->numStudents - 1; i++) {
         for (unsigned int j = 0; j < (stud_list->numStudents - i - 1); j++) {
